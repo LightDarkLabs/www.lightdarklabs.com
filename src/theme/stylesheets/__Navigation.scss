@@ -1,0 +1,42 @@
+.site-navigation {
+  height: 175px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: $light-dark-black;
+  color: tric
+}
+
+.nav-link-secondary {
+}
+
+.nav-link-group {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align: center;
+}
+
+$width: 200px;
+$height: $width / 710 * 555;
+
+.light-dark-labs-logo {
+  background: url(../images/light-dark-labs-logo.svg) center no-repeat;
+  background-size: contain;
+  width: $width;
+  height: $height;
+  display: inline-block;
+  text-indent: -9001px;
+}
